@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastroobra.css" media="">
+    <title>Cadastrar Obra</title>
+</head>
+
+<body>
+    <main class="box">
+
+    <header class="header">
+       
+
+    </header>
+    <div class="campo">
+        <form action="banco.php" method="POST">
+        <h1 id="Titulo">Cadastrar Obra</h1>
+    </div><br><br><br>
+    <form>
+        <fieldset class="grupo">
+            <div class="text">
+                <form action="banco.php" method="POST">
+                <label for="nome"><strong>Nome da Obra</strong></label><br>
+                <div class="tex">
+                <input type="text" , placeholder="Digite o nome da obra" , name="nome" , id="nome" , class="input" required>
+                </div>
+            </div><br><br>
+            <div class="text">
+            <label for="escolha"><strong>Escolha qual o tipo de obra:</strong></label><br>
+                <select id="Escolha">
+                <option selected disabled value="">Informe o que deseja...</option>
+                <option>Anime</option>
+                <option>Filme</option>
+                <option>Série</option>
+                <option>Livro</option>
+            </select>
+            </div><br><br>
+            <div id="check">
+                <label for="escolha"><strong>Qual o genêro da Obra?</strong></label><br>
+                <select id="Escolha">
+                    <option selected disabled value="">Informe o genêro...</option>
+                    <option>Ação</option>
+                    <option>Comédia</option>
+                    <option>Romance</option>
+                    <option>Terror</option>
+                    <option>Suspense</option>
+                    <option>Isekai</option>
+                </select>
+            </div><br><br><br>
+                    <div class="text">
+                    <form action="banco.php" method="POST">
+                        <textarea row="6" style="width: 466px; height: 123px;" id="digite" name="digite" required></textarea>
+                    </div><br><br>
+            </fieldset><br><br>
+            <div class="campo">
+                 <button class="botão" type="submit">Enviar</button>
+            </div>
+    </form>
+    </footer>
+        <header class="header">
+        </header>
+    </footer>
+</form>
+</main>
+</body>
+
+</html>
