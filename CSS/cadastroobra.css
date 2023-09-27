@@ -23,7 +23,7 @@ body{
     color: #290989;
     justify-content: center;
     background-color: #fdfdfd;
-    background-image: url(fundo.jpg);
+    background-image: url(CSS\images\fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
