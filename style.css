@@ -9,7 +9,7 @@
     /* justify-content: center; */
     display: flex;
     align-content: center;
-    color: #000000;
+    color: #290989;
     margin-left: 0%;
     page-break-before: left;
 }
@@ -38,7 +38,7 @@ body {
 .grupo {
     font-family: sans-serif;
     font-size: 12px;
-    color: #000000;
+    color: #290989;
 
 }
 

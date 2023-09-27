@@ -5,7 +5,7 @@
 
 #Titulo{
     font-family: sans-serif;
-    color:#575757;
+    color: #290989;
     margin-left: 0%;
 }
 
@@ -34,7 +34,7 @@ body{
     .box {
     width: 500px;
     height: 100px;
-    color: rgb(255, 5, 5);
+    color: #290989;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -45,7 +45,7 @@ table, td, th, tfoot {
 .button {
     text-decoration: none;
     margin-top: 1rem;
-    color: red;
+    color: #290989;
     max-width: 250px;
     display: flex;
     
